@@ -1,0 +1,20 @@
+{
+    "ferrariParts": [
+        {
+            "id": 1,
+            "partNumber": "282231",
+            "partName": "LH CONNECTOR PIPE",
+            "partPrice": "$150",
+            "avalability": "3-5 days out",
+            "imgURL": ""
+        }
+        {
+            "id": 2,
+            "partNumber": "803566",
+            "partName": "THIRD STOP LIGHT",
+            "partPrice": "$230",
+            "avalability": "1-3 days out",
+            "imgURL": ""
+        }
+    ]
+}
