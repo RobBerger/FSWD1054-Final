@@ -14,25 +14,25 @@ export const PartProvider = (props) => {
     }, []);
 
     function refreshParts() {
-        return axios.get("http://localhost:3001/parts")
+        return axios.get("http://localhost:3001/ferrariparts")
         .then(response => {
             setParts(response.data)
         })
     }
 
     function getPart(id) {
-        return axios.get(`http://localhost:3001/parts/${id}`)
+        return axios.get(`http://localhost:3001/ferrariparts/${id}`)
             .then(response => 
                 new Promise((resolve) => resolve(response.data)))
     }
 
     function deletePart(id) {
-        axios.delete(`http://localhost:3001/parts/${id}`)
+        axios.delete(`http://localhost:3001/ferrariparts/${id}`)
         .then(refreshParts)
     }
 
     function addPart(part) {
-        return axios.post("http://localhost:3001/parts", part)
+        return axios.post("http://localhost:3001/ferrariparts", part)
         .then(response => {
             refreshParts()
             return new Promise((resolve) => resolve(response.data))
@@ -40,7 +40,7 @@ export const PartProvider = (props) => {
     }
 
     function updatePart(part) {
-        return axios.put(`http://localhost:3001/parts/${part.id}`, part)
+        return axios.put(`http://localhost:3001/ferrariparts/${part.id}`, part)
         .then(response => {
             refreshParts()
             return new Promise((resolve) => resolve(response.data))
