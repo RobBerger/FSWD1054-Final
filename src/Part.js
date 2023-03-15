@@ -37,10 +37,11 @@ function Part(props) {
           <Card.Img variant="top" src={imgURL} />
           <Card.Body>
             <Card.Title>{partNumber}</Card.Title>
-            <Card.Subtitle className="mb-2 text-muted">${partName}</Card.Subtitle>
+            <Card.Subtitle className="mb-2 text-muted">{partName}</Card.Subtitle>
             <Card.Text>
               <strong>Price:</strong> <span>{partPrice}</span>
-              <strong>ETA</strong> <span>{avalability}</span>
+              <br />
+              <strong>ETA:</strong> <span>{avalability}</span>
             </Card.Text>
             <Link to={`/parts/${id}/edit`} className="btn btn-primary mx-3">Edit</Link>
             <Button variant="danger" onClick={handleDeletePart.bind(this, id)}>Delete</Button>

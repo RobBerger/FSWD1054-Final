@@ -10,7 +10,7 @@ function PartList(props) {
     return parts.map((part) =>
       <ListGroup.Item key={part.id}>
         <Link to={`/parts/${part.id}`} key={part.id} >
-          {part.partName} ${part.price}
+          {part.partName} {part.partPrice}
         </Link>
       </ListGroup.Item>
     )
