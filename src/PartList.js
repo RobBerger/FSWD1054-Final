@@ -5,7 +5,7 @@ import { Link, Outlet } from 'react-router-dom'
 import { PartContext } from './PartContext'
 
 function PartList(props) {
-  function partList(products) {
+  function partList(parts) {
     if (parts === null) return
     return parts.map((part) =>
       <ListGroup.Item key={part.id}>
