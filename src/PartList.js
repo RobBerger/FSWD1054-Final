@@ -1,13 +1,12 @@
 import React from 'react'
-import ListGroup from 'react-bootstrap/ListGroup'
-import Stack from 'react-bootstrap/Stack'
-import { Link, Outlet } from 'react-router-dom'
+import { Link, Outlet, useParams, useNavigate } from 'react-router-dom'
 import { PartContext } from './PartContext'
-import CardGroup from 'react-bootstrap/CardGroup'
 import Card from 'react-bootstrap/Card'
-import { Row } from 'react-bootstrap'
+import Row from 'react-bootstrap/Row'
+import Button from 'react-bootstrap/Button'
 
 function PartList(props) {
+
   function partList(parts) {
     if (parts === null) return
     return parts.map((part) =>
@@ -16,6 +15,7 @@ function PartList(props) {
         <Card.Body>
             <Card.Title>{part.partName}</Card.Title>
             <Card.Subtitle>{part.partNumber}</Card.Subtitle>
+            <Link to={`/parts/${part.id}`} className="btn btn-primary mx-3">Details</Link>
         </Card.Body>
       </Card>
     )

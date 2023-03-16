@@ -10,10 +10,9 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />}>
-          <Route index element={<h1>Welcome</h1>}/>
+          <Route index element={<h1>Welcome To Ferrari Parts</h1>}/>
           <Route path="parts" element={<PartList />} >
-            <Route index element={<p>Select a part for more details</p>}/>
-            <Route path="new" element={<PartForm />} />
+            <Route path="add" element={<PartForm />} />
             <Route path=":partId/edit" element={<PartForm />} />
             <Route path=":partId" element={<Part />} />
             <Route path="*" element={<h1>Part Not Found</h1>} />
