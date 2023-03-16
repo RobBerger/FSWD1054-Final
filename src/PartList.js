@@ -3,7 +3,6 @@ import { Link, Outlet, useParams, useNavigate } from 'react-router-dom'
 import { PartContext } from './PartContext'
 import Card from 'react-bootstrap/Card'
 import Row from 'react-bootstrap/Row'
-import Button from 'react-bootstrap/Button'
 
 function PartList(props) {
 
