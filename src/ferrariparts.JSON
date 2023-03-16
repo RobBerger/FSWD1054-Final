@@ -23,6 +23,54 @@
             "partPrice": "$700",
             "avalability": "1-3 days out",
             "imgURL": ""
+        },
+        {
+            "id": 4,
+            "partNumber": "70001217",
+            "partName": "TITANIUM FUEL CAP",
+            "partPrice": "$400",
+            "avalability": "1-2 weeks out",
+            "imgURL": ""
+        },
+        {
+            "id": 5,
+            "partNumber": "70001378",
+            "partName": "TITANIUM WHEEL BADGE SET",
+            "partPrice": "$377.55",
+            "avalability": "In Stock",
+            "imgURL": ""
+        },
+        {
+            "id": 6,
+            "partNumber": "70001609",
+            "partName": "TITANIUM CALIFORINA MUFFLER SHROUD'S",
+            "partPrice": "$2,000",
+            "avalability":"3-5 days out",
+            "imgURL": ""
+        },
+        {
+            "id": 7,
+            "partNumber": "70002051",
+            "partName": "458 AM SILENCERS KIT",
+            "partPrice": "$5,507.67",
+            "avalability":"1-2 weeks out",
+            "imgURL": ""
+        },
+        {
+            "id": 8,
+            "partNumber": "70002084",
+            "partName": "360 CARBON FUEL FLAP",
+            "partPrice": "$127.67",
+            "avalability":"In Stock",
+            "imgURL": ""
+        },
+        {
+            "id": 9,
+            "partNumber": "7002089",
+            "partName": "458 TITANIUM MUFFLERS",
+            "partPrice": "$1,800",
+            "avalability": "In Stock",
+            "imgURL": ""
         }
     ]
 }
