@@ -14,8 +14,8 @@ function PartList(props) {
         <Card.Img variant='top' src={part.imgURL} />
         <Card.Body>
             <Card.Title>{part.partName}</Card.Title>
-            <Card.Subtitle>{part.partNumber}</Card.Subtitle>
-            <Link to={`/parts/${part.id}`} className="btn btn-primary mx-3">Details</Link>
+            <Card.Subtitle>OEM Ferrari Part # {part.partNumber}</Card.Subtitle>
+            <Link to={`/parts/${part.id}`} className="btn btn-primary">Details</Link>
         </Card.Body>
       </Card>
     )
