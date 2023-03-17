@@ -10,6 +10,15 @@ function Home() {
       <Navbar bg="light" variant="light">
         <Container>
           <Nav className="me-auto">
+            <Navbar.Brand to="/">
+              <img
+                alt=""
+                src="https://d2y5h3osumboay.cloudfront.net/9t2b00oogf2vc4whpyrfbyu9me2o"
+                width="30"
+                height="30"
+                />{' '}
+                Ferrari Parts Department
+            </Navbar.Brand>
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/parts" className="nav-link">Parts</Link>
             <Link to="/add" className="nav-link">Add A Part</Link>
