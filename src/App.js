@@ -16,6 +16,7 @@ function App() {
           <Route path="parts" element={<PartList />} />
           <Route path="add" element={<PartForm />} />
           <Route path=":partId" element={<Part />} />
+          <Route path="/edit/:partId" element={<PartForm />} />
         </Route>
       </Routes>
     </BrowserRouter>

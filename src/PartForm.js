@@ -44,7 +44,7 @@ function PartForm() {
   function handleSubmit(event) {
     event.preventDefault()
     addOrUpdate().then((part) =>
-        navigate(`/parts/${part.id}`)
+        navigate(`/${part.id}`)
         )
   }
 
@@ -68,7 +68,7 @@ function PartForm() {
       </Form.Group>
       <Form.Group className="mb-3" >
         <Form.Label>imgURL</Form.Label>
-        <Form.Control type="text" name="avalability" value={imgURL} onChange={handleSubmit} />
+        <Form.Control type="text" name="imgURL" value={imgURL} onChange={handleSubmit} />
       </Form.Group>
       <Button type="submit">Save</Button>
     </Form>

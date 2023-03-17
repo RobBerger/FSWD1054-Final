@@ -43,7 +43,7 @@ function Part(props) {
               <br />
               <strong>ETA:</strong> <span>{avalability}</span>
             </Card.Text>
-            <Link to={`/parts/${id}/edit`} className="btn btn-primary mx-3">Edit</Link>
+            <Link to={`/edit/${id}`} className="btn btn-primary mx-3">Edit</Link>
             <Button variant="danger" onClick={handleDeletePart.bind(this, id)}>Delete</Button>
           </Card.Body>
       </Card>
