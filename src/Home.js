@@ -51,6 +51,11 @@ function Home() {
         </Card.Body>
       </Card>
     </CardGroup>
+    <Navbar fixed="bottom" bg="light" variant="light">
+      <Navbar.Brand>
+        Ferrari Parts Designed By Robert
+      </Navbar.Brand>
+    </Navbar>
     </>
   )
 }
