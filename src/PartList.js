@@ -14,7 +14,7 @@ function PartList(props) {
         <Card.Body>
             <Card.Title>{part.partName}</Card.Title>
             <Card.Subtitle>OEM Ferrari Part # {part.partNumber}</Card.Subtitle>
-            <Link to={`/parts/${part.id}`} className="btn btn-primary">Details</Link>
+            <Link to={`/${part.id}`} className="btn btn-primary">Details</Link>
         </Card.Body>
       </Card>
     )

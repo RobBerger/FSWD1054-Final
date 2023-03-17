@@ -12,7 +12,7 @@ function Home() {
           <Nav className="me-auto">
             <Link to="/" className="nav-link">Home</Link>
             <Link to="/parts" className="nav-link">Parts</Link>
-            <Link to="/parts/add" className="nav-link">Add A Part</Link>
+            <Link to="/add" className="nav-link">Add A Part</Link>
           </Nav>
         </Container>
       </Navbar>

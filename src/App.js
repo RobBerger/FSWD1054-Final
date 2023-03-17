@@ -9,16 +9,12 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />}>
+        <Route path="/" element={<Home />} >
           <Route index element={<h1>Welcome To Ferrari Parts</h1>}/>
-          <Route path="parts" element={<PartList />} >
-            <Route path="add" element={<PartForm />} />
-            <Route path=":partId/edit" element={<PartForm />} />
-            <Route path=":partId" element={<Part />} />
-            <Route path="*" element={<h1>Part Not Found</h1>} />
-          </Route>
+          <Route path="parts" element={<PartList />} />
+          <Route path="add" element={<PartForm />} />
+          <Route path=":partId" element={<Part />} />
         </Route>
-        <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
     </BrowserRouter>
   )
