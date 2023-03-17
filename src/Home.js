@@ -20,6 +20,7 @@ function Home() {
                 Ferrari Parts Department
             </Navbar.Brand>
             <Link to="/" className="nav-link">Home</Link>
+            <Link to="/about" className="nav-link">About</Link>
             <Link to="/parts" className="nav-link">Parts</Link>
             <Link to="/add" className="nav-link">Add A Part</Link>
           </Nav>
