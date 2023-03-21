@@ -15,9 +15,9 @@ function PartForm() {
     imgURL: ""
   })
 
-  let { getPart, addPart, updatePart } = useContext(PartContext)
-  let navigate = useNavigate()
-  let { id, partNumber, partName, partPrice, avalability, imgURL } = part
+  let { getPart, addPart, updatePart } = useContext(PartContext);
+  let navigate = useNavigate();
+  let { id, partNumber, partName, partPrice, avalability, imgURL } = part;
 
   useEffect(() => {
     if (id === undefined) return
@@ -68,7 +68,7 @@ function PartForm() {
       </Form.Group>
       <Form.Group className="mb-3" >
         <Form.Label>imgURL</Form.Label>
-        <Form.Control type="text" name="imgURL" value={imgURL} onChange={handleSubmit} />
+        <Form.Control type="text" name="imgURL" value={imgURL} onChange={handleChange} />
       </Form.Group>
       <Button type="submit">Save</Button>
     </Form>
