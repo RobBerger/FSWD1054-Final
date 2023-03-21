@@ -71,22 +71,6 @@
       "partPrice": "$1,800",
       "avalability": "In Stock",
       "imgURL": "https://d2y5h3osumboay.cloudfront.net/xvjzxt5gq4bs1hhmmqe7zpfhdsw7"
-    },
-    {
-      "partNumber": "",
-      "partName": "",
-      "partPrice": "5050",
-      "avalability": "1",
-      "imgURL": "",
-      "id": 10
-    },
-    {
-      "partNumber": "654654",
-      "partName": "asdfgsdfgsdf",
-      "partPrice": "5050",
-      "avalability": "1",
-      "imgURL": "",
-      "id": 11
     }
   ]
 }

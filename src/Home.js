@@ -31,12 +31,13 @@ function Home() {
       <Stack gap={3} className="col-md-10 mx-auto mt-3">
         <Outlet />
       </Stack>
-
-
+    <br />
     <Navbar fixed="bottom" bg="light" variant="light">
-      <Navbar.Brand>
-        Ferrari Parts Designed By Robert
-      </Navbar.Brand>
+      <Container>
+        <Navbar.Brand>
+          Ferrari Parts Designed By Robert
+        </Navbar.Brand>
+      </Container>
     </Navbar>
     </>
   )
