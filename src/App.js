@@ -5,13 +5,14 @@ import PartList from './PartList'
 import Part from './Part'
 import PartForm from './PartForm';
 import About from './About';
+import Welcome from './Welcome';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} >
-          <Route index element={<h1>Welcome To Ferrari Parts</h1>}/>
+          <Route index element={<Welcome />} />
           <Route path="about" element={<About />} />
           <Route path="parts" element={<PartList />} />
           <Route path="add" element={<PartForm />} />

@@ -31,26 +31,8 @@ function Home() {
       <Stack gap={3} className="col-md-10 mx-auto mt-3">
         <Outlet />
       </Stack>
-      <CardGroup>
-      <Card>
-        <Card.Img variant="top" src="https://d2y5h3osumboay.cloudfront.net/g5ff44g73e3fs1wv88asjc4tmtl5" />
-        <Card.Body>
-          <Card.Title>We Have Parts</Card.Title>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="https://d2y5h3osumboay.cloudfront.net/qs5zefwqy9v899it2xuczm3h73hz" />
-        <Card.Body>
-          <Card.Title>We Have Accessories</Card.Title>
-        </Card.Body>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="https://d2y5h3osumboay.cloudfront.net/slqc85ac13w1l8uo75t1iobdw1jj" />
-        <Card.Body>
-          <Card.Title>We Have Apparel</Card.Title>
-        </Card.Body>
-      </Card>
-    </CardGroup>
+
+
     <Navbar fixed="bottom" bg="light" variant="light">
       <Navbar.Brand>
         Ferrari Parts Designed By Robert
