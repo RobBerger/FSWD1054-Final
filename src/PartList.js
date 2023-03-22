@@ -1,8 +1,8 @@
-import React from 'react'
-import { Link, Outlet, useParams, useNavigate } from 'react-router-dom'
-import { PartContext } from './PartContext'
-import Card from 'react-bootstrap/Card'
-import Row from 'react-bootstrap/Row'
+import React from 'react';
+import { Link, Outlet, useParams, useNavigate } from 'react-router-dom';
+import { PartContext } from './PartContext';
+import Card from 'react-bootstrap/Card';
+import Row from 'react-bootstrap/Row';
 
 function PartList(props) {
 
